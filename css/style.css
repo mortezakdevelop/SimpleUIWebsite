@@ -15,6 +15,7 @@
 body,html{
     font-family: 'Vazir',Arial, Helvetica, sans-serif;
     line-height: 1.7em;
+    background: rgb(26, 25, 25);
 }
 
 a{
@@ -198,6 +199,7 @@ p{
     margin-top: 15px;
 }
 
+
 /* padding top and bottom */
 .py-1{
 padding: 10px 0;
@@ -254,5 +256,34 @@ padding: 30px 0;
     float: left;
     margin-right: 20px;
     border-radius: 50%;
+}
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    color: rgb(158, 158, 158);
+    background-color: #333;
+    border: 1px rgb(102, 102, 102) solid;
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+    border-color: rgb(184, 2, 11);
 }
 
